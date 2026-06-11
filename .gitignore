@@ -1,0 +1,33 @@
+# Secrets and credentials
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
+*.password
+*.secrets
+.env
+wazuh-install-files.tar
+wazuh-passwords.txt
+credentials.txt
+passwords.txt
+
+# Logs
+*.log
+*.evtx
+*.pcap
+*.pcapng
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Temporary files
+tmp/
+temp/
