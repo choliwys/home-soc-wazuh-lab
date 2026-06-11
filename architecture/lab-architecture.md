@@ -20,7 +20,7 @@ Diseñar una arquitectura inicial para un laboratorio SOC casero usando Wazuh.
 │ Linux Agent  │  │ Windows Agent│
 │ Ubuntu       │  │ Windows      │
 └──────────────┘  └──────────────┘
-
+```
 ## Componentes
 - Wazuh Server: Servidor central encargado de recibir, procesar y analizar eventos enviados por los agentes.
 - Wazuh Indexer: Componente encargado de almacenar e indexar los eventos y alertas.
