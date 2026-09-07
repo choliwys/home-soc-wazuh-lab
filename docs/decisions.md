@@ -20,8 +20,8 @@ Las decisiones se registran aquí para que el laboratorio sea explicable y repro
 ## ADR-003 — Alcance de detecciones
 
 - **Estado:** aceptada.
-- **Decisión:** documentar pocos escenarios controlados, reproducibles y explicables en entrevista.
-- **Motivación:** la profundidad de análisis aporta más valor de portafolio que un volumen alto de alertas.
+- **Decisión:** documentar pocos escenarios controlados, reproducibles y suficientemente analizados.
+- **Motivación:** la profundidad de análisis y la evidencia validada aportan más valor técnico que un volumen alto de alertas.
 - **Escenarios iniciales:** autenticaciones fallidas Linux, FIM controlado, inventario de endpoints y eventos de autenticación Windows.
 
 ## ADR-004 — Gestión de información sensible
@@ -60,3 +60,11 @@ Las decisiones se registran aquí para que el laboratorio sea explicable y repro
 - **Motivación:** la Wi-Fi del nodo es administrada por `snap.network-manager.networkmanager.service`, mientras que `systemd-networkd` la reporta como no administrada. La unidad de espera de `systemd-networkd` agotó el tiempo de espera y Wazuh Indexer intentó enlazar su dirección LAN antes de que estuviera disponible.
 - **Consecuencia:** el nombre de interfaz `wlo1` queda como dependencia explícita de la unidad local y debe revisarse si cambia el hardware o la configuración de red. La recuperación queda documentada en [04-network-startup-order.md](../installation/04-network-startup-order.md).
 - **Validación:** la unidad local quedó habilitada y terminó correctamente con la Wi-Fi conectada. Tras un reinicio controlado, la unidad y Manager, Indexer, Dashboard y Filebeat mostraron `active`; no quedaron unidades fallidas y el agente Ubuntu continuó `Active`.
+
+## ADR-009 — Documentación técnica y prompts locales separados
+
+- **Estado:** aceptada.
+- **Decisión:** mantener la documentación versionada centrada en el alcance, la operación y las validaciones del laboratorio; excluir `ai-prompts/` del control de versiones.
+- **Motivación:** los prompts son material personal y cambiante, mientras que el repositorio debe conservar una fuente de verdad técnica, neutral y revisable.
+- **Consecuencia:** los prompts locales no se publican ni se usan como referencia operativa; `docs/` y `AGENTS.md` mantienen ese rol.
+- **Validación:** se retiraron las referencias de orientación profesional y `ai-prompts/` quedó ignorado y sin archivos rastreados.

@@ -8,7 +8,7 @@ Al iniciar una sesión nueva, proporcionar a la LLM:
 2. `docs/status.md`.
 3. El runbook, detección o error concreto en el que se trabajará.
 
-`docs/` es la fuente de verdad. [AGENTS.md](../AGENTS.md) contiene las instrucciones operativas persistentes para Codex. Los prompts de `ai-prompts/` son solo ayudas de redacción o aprendizaje.
+`docs/` es la fuente de verdad. [AGENTS.md](../AGENTS.md) contiene las instrucciones operativas persistentes para Codex.
 
 ## Forma de pedir ayuda
 

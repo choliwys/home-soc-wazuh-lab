@@ -10,7 +10,7 @@
 
 ## Completado
 
-- [x] Definir el objetivo profesional y el alcance defensivo del laboratorio.
+- [x] Definir el propósito técnico y el alcance defensivo del laboratorio.
 - [x] Elegir una laptop secundaria con Ubuntu Server 24.04 LTS como nodo central.
 - [x] Diseñar la arquitectura inicial con dos endpoints previstos.
 - [x] Definir controles básicos para no publicar secretos ni evidencias sensibles.
@@ -45,12 +45,13 @@
 - [x] Validar una alerta de ejecución controlada con `sudo` (regla `5402`, nivel 3) en el endpoint Ubuntu.
 - [x] Documentar el caso `DET-003` y el reporte sanitizado `INC-003`.
 - [x] Crear y validar un script Python que genera un resumen reproducible desde datos de detecciones sanitizados.
-- [x] Revisar el repositorio como portafolio: README orientado a reclutadores, coherencia documental, enlaces locales, salida del script y ausencia de patrones sensibles.
+- [x] Revisar la documentación pública: coherencia documental, enlaces locales, salida del script y ausencia de patrones sensibles.
 - [x] Añadir licencia MIT para aclarar las condiciones de reutilización del repositorio público.
+- [x] Centrar la documentación en el laboratorio y excluir los prompts locales de IA del control de versiones.
 
 ## Siguiente hito
 
-Mantener la asignación LAN estable documentada de forma privada y diferir el endpoint Windows hasta contar con un host personal adecuado. El portafolio ya reúne los casos, reportes, automatización y controles de publicación del alcance actual.
+Mantener la asignación LAN estable documentada de forma privada y diferir el endpoint Windows hasta contar con un host personal adecuado. El repositorio reúne los casos, reportes, automatización y controles de publicación del alcance actual.
 
 ### Criterios de salida
 
@@ -84,5 +85,6 @@ Obtener acceso autorizado al router y registrar una reserva DHCP de forma privad
 - La VM Windows se difiere por falta de un host personal adecuado; el avance inmediato continuará con el único endpoint Ubuntu inscrito.
 - `DET-003`/`INC-003` se validaron el 2026-09-07: el Dashboard mostró la regla `5402`, de nivel 3, para la ejecución controlada de `/usr/bin/id -u` con `sudo` en `ubuntu-primary`.
 - El script `scripts/summarize_detections.py` se añadió con un JSON de ejemplo sanitizado para resumir `DET-001` a `DET-003` sin acceder a Wazuh ni a logs privados.
-- La revisión de portafolio confirmó enlaces locales correctos, ejecución esperada del script, ausencia de patrones de IP, MAC o claves privadas y documentación alineada con el estado validado.
-- El portafolio incorpora licencia MIT y está preparado para publicación sin incluir secretos, evidencias privadas ni archivos generados por Wazuh.
+- La revisión documental confirmó enlaces locales correctos, ejecución esperada del script, ausencia de patrones de IP, MAC o claves privadas y documentación alineada con el estado validado.
+- El repositorio incorpora licencia MIT y está preparado para publicación sin incluir secretos, evidencias privadas ni archivos generados por Wazuh.
+- La documentación se centra en el alcance técnico del laboratorio; los prompts personales de IA se conservan solo de forma local y quedan excluidos de Git.

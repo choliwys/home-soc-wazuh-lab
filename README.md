@@ -1,8 +1,8 @@
 # Home SOC Lab con Wazuh
 
-Laboratorio defensivo y autorizado orientado a demostrar habilidades iniciales de Blue Team y SOC L1: administración Linux, visibilidad de endpoints, análisis de alertas, documentación de incidentes y automatización reproducible.
+Laboratorio defensivo y autorizado con Wazuh para administración Linux, visibilidad de endpoints, análisis de alertas, documentación de incidentes y automatización reproducible.
 
-El proyecto está diseñado como portafolio para prácticas preprofesionales y puestos junior de Cybersecurity, SOC y Security Operations. No reproduce ataques ni usa sistemas, credenciales o datos corporativos.
+El alcance se limita a telemetría y eventos defensivos controlados en equipos y una red de laboratorio propios. No reproduce ataques ni usa sistemas, credenciales o datos corporativos.
 
 ## Logros validados
 
@@ -12,7 +12,7 @@ El proyecto está diseñado como portafolio para prácticas preprofesionales y p
 - Endpoint Ubuntu `ubuntu-primary` inscrito y activo con Wazuh Agent `4.14.7`.
 - Tres detecciones defensivas reproducibles, tres reportes de incidente sanitizados y un script Python sin dependencias externas.
 
-## Habilidades demostradas
+## Capacidades del laboratorio
 
 - Administración de servicios Linux con `systemd`, diagnóstico de arranque y recuperación controlada.
 - Arquitectura y operación básica de Wazuh: Manager, Indexer, Dashboard, Filebeat y agentes.
@@ -84,7 +84,7 @@ Este repositorio se distribuye bajo la [licencia MIT](LICENSE).
 ## Próximos pasos
 
 1. Documentar de forma privada una reserva DHCP o configuración LAN estable.
-2. Mantener los tres casos y el script como ejercicios reproducibles de portafolio.
+2. Mantener los tres casos y el script como ejercicios reproducibles.
 3. Incorporar un endpoint Windows cuando exista un host personal con recursos suficientes.
 
 El estado operativo detallado y las validaciones documentadas se mantienen en [docs/status.md](docs/status.md).

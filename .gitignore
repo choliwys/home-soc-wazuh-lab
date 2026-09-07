@@ -40,3 +40,6 @@ venv/
 # Temporary files
 tmp/
 temp/
+
+# Local AI working prompts
+/ai-prompts/

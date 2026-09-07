@@ -1,8 +1,8 @@
 # Contexto del proyecto
 
-## Propósito profesional
+## Propósito del proyecto
 
-Este Home SOC Lab demuestra competencias prácticas iniciales para una transición de Helpdesk / IT Support a Cybersecurity Intern, SOC Intern, SOC Analyst L1 o Security Operations. El foco es Blue Team: visibilidad de endpoints, análisis de logs, validación de alertas, documentación y automatización básica.
+Este Home SOC Lab usa Wazuh para practicar y documentar tareas defensivas de Blue Team: visibilidad de endpoints, análisis de logs, validación de alertas, documentación y automatización básica.
 
 No es un laboratorio de pentesting ni pretende emular una operación SOC empresarial completa.
 
@@ -23,7 +23,7 @@ No es un laboratorio de pentesting ni pretende emular una operación SOC empresa
 4. Evidencia sanitizada para cada caso relevante.
 5. Al menos dos reportes de incidente basados en las alertas del laboratorio.
 6. Un script Python pequeño que produzca un resumen o reporte reproducible.
-7. README actualizado para consumo de reclutadores y entrevistas.
+7. README actualizado con el alcance, las validaciones y el recorrido técnico del repositorio.
 
 ## Restricciones y seguridad
 
