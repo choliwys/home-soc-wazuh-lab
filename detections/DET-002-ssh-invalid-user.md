@@ -46,6 +46,8 @@ El fallo de la conexión es el resultado esperado. No se introduce una contrase�
 - La captura original se revisó antes de conservarla: se deben ocultar IP, hostname real, puertos y el campo `full_log` antes de versionar una imagen.
 - No se conservaron credenciales, claves ni logs completos.
 
+![Alerta SSH sanitizada para un usuario inexistente](../screenshots/DET-002/ssh-invalid-user.png)
+
 ## Análisis
 
 La alerta coincide con el único intento planificado contra SSH local y con el usuario ficticio definido en este caso. No hubo autenticación exitosa ni evidencia de acceso no autorizado, por lo que se clasifica como ejercicio controlado y no como incidente real.

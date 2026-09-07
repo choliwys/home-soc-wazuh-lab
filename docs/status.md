@@ -48,6 +48,7 @@
 - [x] Revisar la documentación pública: coherencia documental, enlaces locales, salida del script y ausencia de patrones sensibles.
 - [x] Añadir licencia MIT para aclarar las condiciones de reutilización del repositorio público.
 - [x] Centrar la documentación en el laboratorio y excluir los prompts locales de IA del control de versiones.
+- [x] Incorporar capturas sanitizadas del agente activo y de los casos `DET-001` a `DET-003`.
 
 ## Siguiente hito
 
@@ -88,3 +89,4 @@ Obtener acceso autorizado al router y registrar una reserva DHCP de forma privad
 - La revisión documental confirmó enlaces locales correctos, ejecución esperada del script, ausencia de patrones de IP, MAC o claves privadas y documentación alineada con el estado validado.
 - El repositorio incorpora licencia MIT y está preparado para publicación sin incluir secretos, evidencias privadas ni archivos generados por Wazuh.
 - La documentación se centra en el alcance técnico del laboratorio; los prompts personales de IA se conservan solo de forma local y quedan excluidos de Git.
+- Se añadieron capturas sanitizadas para el agente Ubuntu activo y para `DET-001`, `DET-002` y `DET-003`; las imágenes se enlazan desde los casos y no contienen IP, hostname, usuario local, TTY, rutas personales ni `full_log`.

@@ -62,6 +62,8 @@ La regla `550` incluyó el mapeo MITRE ATT&CK `T1565.001` y la regla `553` los m
 - No se conservaron los valores de IP, hashes, usuario local, hostname ni el contenido bruto de `alerts.json`.
 - El archivo de prueba fue eliminado al cerrar la validación.
 
+![Secuencia FIM de creación, modificación y borrado](../screenshots/DET-001/fim-sequence.png)
+
 ## Análisis
 
 La secuencia observada coincide con los tres cambios solicitados y la política centralizada llegó al agente antes de la prueba. No hubo indicios de un incidente real: la ruta, el contenido y la ventana temporal se definieron previamente para el laboratorio.

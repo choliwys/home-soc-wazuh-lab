@@ -40,6 +40,8 @@ Si se solicita, la contraseña se introduce únicamente en la terminal local. El
 - El evento registró el comando controlado `/usr/bin/id -u`, destino `root`, decodificador `sudo`, regla `5402` y nivel `3`.
 - La captura original no se conserva sin sanitizar: contenía IP, nombre de usuario local, hostname, ruta de trabajo, TTY y `full_log`.
 
+![Alerta `sudo` sanitizada para el comando controlado](../screenshots/DET-003/sudo-controlled-command.png)
+
 ## Análisis
 
 La alerta coincide con la única ejecución planificada y con un comando de solo lectura. El evento confirma que los registros de `sudo` del endpoint llegan a Wazuh y que su contexto —comando, usuario de destino y origen— está disponible para investigación.

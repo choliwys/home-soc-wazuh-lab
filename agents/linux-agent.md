@@ -46,6 +46,8 @@ Resultado registrado el 2026-09-01:
 - El agente completó una ejecución de monitorización de integridad (Syscheck).
 - El hostname real, la dirección IP y las claves de inscripción no se registraron.
 
+![Agente `ubuntu-primary` activo en Wazuh Dashboard](../screenshots/agents/ubuntu-primary-active.png)
+
 ## Siguiente uso
 
 Este endpoint ya validó el caso [DET-001](../detections/DET-001-fim-controlled-change.md). Utilizarlo ahora para una detección defensiva de autenticación Linux y conservar únicamente capturas y salidas sanitizadas conforme a [la guía de evidencias](../docs/evidence-guidelines.md).
