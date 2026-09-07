@@ -1,29 +1,9 @@
-# Project Context - Home SOC Lab with Wazuh
+# Project Context Prompt
 
-Estoy construyendo un laboratorio SOC casero para aprender ciberseguridad defensiva desde la práctica.
+La fuente de verdad del proyecto es [docs/project-context.md](../docs/project-context.md). Antes de pedir ayuda a un asistente, comparte ese archivo junto con [docs/status.md](../docs/status.md) y las instrucciones de [AGENTS.md](../AGENTS.md).
 
-## Mi perfil
+## Contexto breve para pegar en una sesión nueva
 
-Soy estudiante de Ingeniería de Software y actualmente trabajo como Helpdesk & Support Intern. Estoy orientando mi carrera hacia ciberseguridad defensiva, SOC, IAM, análisis de logs y automatización con Python.
+Estoy construyendo un Home SOC Lab con Wazuh como portafolio para puestos junior de Blue Team y SOC. El entorno usa un nodo central Ubuntu Server 24.04 LTS, un endpoint Ubuntu y una futura VM Windows. Solo trabajo con equipos propios y eventos defensivos controlados.
 
-## Objetivo del proyecto
-
-Implementar Wazuh para monitorear endpoints Windows y Linux, generar eventos de seguridad controlados, analizar alertas y documentar reportes básicos de incidente.
-
-## Restricciones
-
-- Todo se realiza en máquinas propias o virtuales.
-- No se usan equipos corporativos.
-- No se usan datos sensibles.
-- No se suben credenciales, contraseñas, tokens, IPs públicas sensibles ni logs privados al repositorio.
-- El enfoque es defensivo y educativo.
-
-## Entregables
-
-- README profesional.
-- Documentación de instalación.
-- Arquitectura del laboratorio.
-- Capturas del dashboard.
-- Reportes de incidentes.
-- Scripts básicos de automatización.
-- Notas de aprendizaje.
+Antes de sugerir cambios, revisa el contexto y estado enlazados. No solicites ni incluyas contraseñas, claves de agentes, certificados, tokens, IP públicas, logs privados ni información corporativa. Para cada comando, explica propósito, prerrequisitos, impacto, validación y cómo documentar la evidencia. Pide confirmación antes de cambios remotos, instalaciones, firewall o acciones destructivas.

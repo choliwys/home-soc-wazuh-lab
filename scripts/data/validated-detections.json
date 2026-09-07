@@ -1,0 +1,29 @@
+{
+  "dataset": "validated-detections-sanitized",
+  "cases": [
+    {
+      "id": "DET-001",
+      "date": "2026-09-01",
+      "endpoint": "ubuntu-primary",
+      "rules": ["554", "550", "553"],
+      "max_level": 7,
+      "classification": "Ejercicio controlado"
+    },
+    {
+      "id": "DET-002",
+      "date": "2026-09-07",
+      "endpoint": "ubuntu-primary",
+      "rules": ["5710"],
+      "max_level": 5,
+      "classification": "Ejercicio controlado"
+    },
+    {
+      "id": "DET-003",
+      "date": "2026-09-07",
+      "endpoint": "ubuntu-primary",
+      "rules": ["5402"],
+      "max_level": 3,
+      "classification": "Ejercicio controlado"
+    }
+  ]
+}

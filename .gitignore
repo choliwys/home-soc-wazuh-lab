@@ -7,16 +7,25 @@
 *.password
 *.secrets
 .env
+.env.*
+!.env.example
 wazuh-install-files.tar
 wazuh-passwords.txt
 credentials.txt
 passwords.txt
+client.keys
+authd.pass
+wazuh-install.sh
+wazuh-install-files/
+wazuh-certificates/
 
 # Logs
 *.log
 *.evtx
 *.pcap
 *.pcapng
+alerts.json
+archives.json
 
 # OS files
 .DS_Store
