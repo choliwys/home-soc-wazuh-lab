@@ -1,5 +1,7 @@
 # Home SOC Lab con Wazuh
 
+[English version](README.en.md)
+
 Laboratorio defensivo y autorizado con Wazuh para administración Linux, visibilidad de endpoints, análisis de alertas, documentación de incidentes y automatización reproducible.
 
 El alcance se limita a telemetría y eventos defensivos controlados en equipos y una red de laboratorio propios. No reproduce ataques ni usa sistemas, credenciales o datos corporativos.
